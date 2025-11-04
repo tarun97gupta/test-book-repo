@@ -25,4 +25,4 @@ app.listen(PORT, '0.0.0.0', ()=>{
     console.log(`Local: http://localhost:${PORT}`);
     console.log(`Network: http://192.168.0.12:${PORT}`);
     connectDB();
-})
+})  
